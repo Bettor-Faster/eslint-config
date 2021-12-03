@@ -1,7 +1,7 @@
 {
   "name": "@bettor-faster/eslint-config",
   "description": "ESLint configurations",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "keywords": [
     "eslint",
     "eslintconfig"
@@ -12,14 +12,15 @@
   "peerDependencies": {
     "eslint": ">= 3"
   },
-  "devDependencies": {
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
     "eslint-config-airbnb-typescript-prettier": "^4.2.0",
     "eslint-config-react-app": "^6.0.0",
     "eslint-plugin-cypress": "^2.12.1",
-    "eslint-plugin-node": "^11.1.0"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry":"https://npm.pkg.github.com"
+    "eslint-plugin-node": "^11.1.0",
+    "prettier": "^2.5.0"
   }
 }
