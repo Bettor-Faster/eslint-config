@@ -1,7 +1,7 @@
 {
   "name": "@bettor-faster/eslint-config",
   "description": "ESLint configurations",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "keywords": [
     "eslint",
     "eslintconfig"
@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "eslint-config-airbnb-typescript-prettier": "^4.2.0",
-    "eslint-config-react-app": "^6.0.0",
+    "eslint-config-react-app": "^7.0.1",
     "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-node": "^11.1.0",
     "prettier": "^2.5.0"
